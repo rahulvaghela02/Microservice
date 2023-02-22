@@ -14,4 +14,6 @@ public interface FileService {
     public String addFile(MultipartFile upload) throws IOException;
 
     public StoreFileInDB downloadFile(String id) throws IOException;
+
+    String uploadMultipleFiles(String path, MultipartFile[] files);
 }

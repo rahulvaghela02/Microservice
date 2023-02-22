@@ -84,4 +84,9 @@ public class FileServiceImpl implements FileService{
 
         return loadFile;
     }
+
+    @Override
+    public String uploadMultipleFiles(String path, MultipartFile[] files) {
+        return null;
+    }
 }
